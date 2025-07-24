@@ -1,11 +1,12 @@
 {
   "dependencies": {
+    "dotenv": "^17.2.0",
     "express.js": "^1.0.0",
     "mongodb": "^6.18.0",
     "mongoose": "^8.16.4",
     "node.js": "^0.0.1-security"
   },
-  "scripts":{
+  "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js"
   }
